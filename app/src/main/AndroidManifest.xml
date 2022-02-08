@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.constructor">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main_Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.media.action.IMAGE_CAPTURE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name=".editMainProject" />
+        <activity android:name=".EmployeeSalary" />
+        <activity android:name=".ResetActivity" />
+        <activity android:name=".passwordactivity" />
+        <activity android:name=".DataBaseHelper" />
+        <activity android:name=".addRegister" />
+        <activity android:name=".Project_View" />
+        <activity android:name=".addMainProject" />
+        <activity android:name=".addMachine" />
+        <activity android:name=".addVehicle" />
+        <activity android:name=".addStock" />
+        <activity android:name=".addCustomer" />
+        <activity android:name=".addEmployee" />
+        <activity android:name=".login" />
+        <activity android:name=".Home" />
+        <activity android:name=".SearchItemDetail" />
+        <activity android:name=".AnimatedOpen">
+
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+
+</manifest>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">RNK</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="col1">Project</string>
+    <string name="col2">Salary</string>
+    <string name="col3">Date</string>
+    <string name="row1Project">Colombo</string>
+    <string name="row1Salary">5000.00</string>
+    <string name="row1Date">2021/12/12</string>
+    <string name="row2Project">Galle</string>
+    <string name="row2Salary">5570.00</string>
+    <string name="row2Date">2021/12/12</string>
+    <string name="row3Project">Kandy</string>
+    <string name="row3Salary">3000.00</string>
+    <string name="row3Date">2021/01/21</string>
+
+
+    <string name="invalidate_name">*Incorrect User Name</string>
+    <string name="not_null">*Type Here</string>
+    <string name="contact_number"> only number </string>
+    <string name="invalidate_password">*Incorrect User Name</string>
+
+
+    <string-array name="names">
+        <item>label</item>
+        <item>Sub_Constructed</item>
+
+    </string-array>
+</resources>
